@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "FYWebedia",
+  "version": "1.0",
+
+  "description": "accès aux sites webedia sans cookie et sans payer",
+
+//  "commented_icons": {
+//    "48": "icons/border-48.png"
+//  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Fywebedia.js"]
+    }
+  ]
+
+}
+
