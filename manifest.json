@@ -6,13 +6,10 @@
 
   "description": "accès aux sites webedia sans cookie et sans payer",
 
-//  "commented_icons": {
-//    "48": "icons/border-48.png"
-//  },
-
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["*://*.allocine.fr/*","*://*.jeuxvideo.com/*","*://*.fr.millenium.gg/*", "*://*.jeuxactu.com/*",
+        "*://*.http://psg-esports.com/*", "*://*.lestream.fr/*","*://*.eswc.com/*", "*://*.750g.com/*", "*://*.terrafemina.com/*", "*://*.easyvoyage.com/*", "*://*.ozap.com/*", "*://*.leliveonair.com/*","*://*.over-blog.com/*","*://*.canalblog.com/*", "*://*.mixicom.fr/*"],
       "js": ["Fywebedia.js"]
     }
   ]
