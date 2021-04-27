@@ -2,17 +2,16 @@
 
   "manifest_version": 2,
   "name": "FYWebedia",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "accès aux sites webedia sans cookie et sans payer",
 
   "content_scripts": [
     {
       "matches": ["*://*.allocine.fr/*","*://*.jeuxvideo.com/*","*://*.fr.millenium.gg/*", "*://*.jeuxactu.com/*",
-        "*://*.http://psg-esports.com/*", "*://*.lestream.fr/*","*://*.eswc.com/*", "*://*.750g.com/*", "*://*.terrafemina.com/*", "*://*.easyvoyage.com/*", "*://*.ozap.com/*", "*://*.leliveonair.com/*","*://*.over-blog.com/*","*://*.canalblog.com/*", "*://*.mixicom.fr/*"],
-      "js": ["Fywebedia.js"]
+        "*://*.psg-esports.com/*", "*://*.lestream.fr/*","*://*.eswc.com/*", "*://*.750g.com/*", "*://*.terrafemina.com/*", "*://*.easyvoyage.com/*", "*://*.ozap.com/*", "*://*.leliveonair.com/*","*://*.over-blog.com/*","*://*.canalblog.com/*", "*://*.mixicom.fr/*"],
+      "js": ["fywebedia.js"]
     }
   ]
-
 }
 
